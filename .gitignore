@@ -1,0 +1,53 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Environments
+*.env
+.env.*
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.cache/
+
+# coverage
+.coverage
+coverage.xml
+*.cover
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# Django static files
+staticfiles/
+
+# media files
+media/
+
+# .env file
+*.env
