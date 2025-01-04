@@ -101,7 +101,7 @@ Authorization: Bearer <access_token>
 
 
 ## Pruebas
-Las pruebas están definidas en books/tests.py. Puedes ejecutar las pruebas unitarias utilizando el siguiente comando:
+Las pruebas están definidas en test/tests.py. Puedes ejecutar las pruebas unitarias utilizando el siguiente comando:
 
 ```bash
 pytest
