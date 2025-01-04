@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 class BookSerializer(serializers.Serializer):
+    _id = serializers.CharField()
     title = serializers.CharField(max_length=255)
     author = serializers.CharField(max_length=255)
     published_date = serializers.DateField()
